@@ -1,1 +1,25 @@
-/* Write your CSS here */
+.navbar {
+  background-color: #383636;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.light-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.nav-items {
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+.light-nav-items {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-decoration: none;
+}

@@ -15,17 +15,21 @@ const Navbar = () => {
   return (
     <nav className={navbarBackground}>
       {isDarkTheme ? (
-        <img
-          src="https://assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png"
-          alt="website logo"
-          style={{height: '35px', width: '35px'}}
-        />
+        <Link to="/">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png"
+            alt="website logo"
+            style={{height: '35px', width: '35px'}}
+          />
+        </Link>
       ) : (
-        <img
-          src="https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png"
-          alt="website logo"
-          style={{height: '35px', width: '35px'}}
-        />
+        <Link to="/">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png"
+            alt="website logo"
+            style={{height: '35px', width: '35px'}}
+          />
+        </Link>
       )}
       <div className="nav-items-container">
         <ul style={{listStyle: 'none', display: 'flex', alignItems: 'center'}}>
